@@ -7,7 +7,7 @@ import routes from './routes/index.js';
 
 const app = express();
 
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 3001;
 
 // TODO: Serve static files of entire client dist folder
 app.use(express.static('../client/dist'));
@@ -22,4 +22,6 @@ app.use(express.json());
 app.use(routes);
 
 // Start the server on the port
-app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
+app.listen(PORT, () => {
+    console.log(`Listening on PORT: ${PORT}`)
+});
