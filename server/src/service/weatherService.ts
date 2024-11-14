@@ -72,8 +72,8 @@ class WeatherService {
     }
 
   // TODO: Create destructureLocationData method
-
-    private destructureLocationData(locationData: Coordinates): Coordinates {
+ 
+  private destructureLocationData(locationData: Coordinates): Coordinates {
     if (!locationData) {
       throw new Error('City not found');
     } 

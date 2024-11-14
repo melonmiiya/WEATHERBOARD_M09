@@ -1,13 +1,13 @@
 # 09 Module - Weather Dashboard
 
 ## Description
-This projecy was to buil;d a weather dashboard using API and TS. we were to make server which would be connected to the client side of the website.
+This project was to buil;d a weather dashboard using API and TS. we were to make server which would be connected to the client side of the website.
 
 ## Links
 
 Web Service Application - 
 
-Github Repository - 
+Github Repository - https://github.com/melonmiiya/WEATHERBOARD_M09
 
 ## Credits
 
